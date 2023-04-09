@@ -168,7 +168,7 @@ class SAJSNoQueue {
     getLeaderBoard(hero="Mirage", platform="PC"){//оно типо не доступно нам еще
         return this.request(`leaderboard?legend=${hero}&key=KEY&platform=${platform}`)
     }
-    getMap(mode=2, rus=true){//получаем карты
+    getMap(mode=2, {rus}){//получаем карты
         return this.request(`maprotation?version=${mode}`).then(back=>{
             if(rus) for(const it of Object.keys(back)) {
                 back[it].current.map = this.rusMap(back[it].current.map);
