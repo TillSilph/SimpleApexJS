@@ -1,14 +1,13 @@
 This library will help you to work with the Apex Mozambique API quite simply.
 First of all, you need to create a class
-```
+```js
 const ApexAPI = require("simple-apex.js");
 const Apex = new DiscordDB("token");
-
 ```
 
 
 There are several requests:
-```
+```js
   Apex.getCrafting() // return items in Replicator
   Apex.getPlayerStatByName(playerName, platform) // return player's stats by name
   Apex.getPlayerStatById(playerUID, platform) // return player's stats by uid
@@ -21,7 +20,7 @@ There are several requests:
   Apex.getPlayerUIDbyName(playerName, platform) // return player uid by name
  ```
  Arguments:
-```
+```css
 platform = PC, X1, PS4, SWITCH, ANY.
 hero = Legend name, starting with a capital letter.
 mode = BATTLE_ROYALE, ARENAS, UNKNOWN
