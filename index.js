@@ -1,4 +1,3 @@
-const config = require("./config.json")
 const fetch = require('node-fetch')
 async function later(ms) {
     return await new Promise(resolve => setTimeout(resolve, ms));
