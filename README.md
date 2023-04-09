@@ -20,7 +20,7 @@ There are several requests:
   Apex.getPlayerUIDbyName(playerName, platform) // return player uid by name
  ```
  Arguments:
-```css
+```
 platform = PC, X1, PS4, SWITCH, ANY.
 hero = Legend name, starting with a capital letter.
 mode = BATTLE_ROYALE, ARENAS, UNKNOWN
