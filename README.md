@@ -2,7 +2,7 @@ This library will help you to work with the Apex Mozambique API quite simply.
 First of all, you need to create a class
 ```js
 const ApexAPI = require("simple-apex.js");
-const Apex = new DiscordDB("token");// or Apex.noQueue() to get class without queue
+const Apex = new ApexAPI("token");// or Apex.noQueue() to get class without queue
 ```
 
 
